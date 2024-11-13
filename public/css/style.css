@@ -1,0 +1,48 @@
+body {
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  padding: 50px;
+  margin: 0;
+  text-align: center;
+}
+
+.flexHeader {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+a {
+  color: #00B7FF;
+}
+
+body select {
+  padding: 10px 13px 10px 70px;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #dcdcdc;
+  border-radius: 3px;
+  background-color: #ffffff;
+  background-image: url("https://i.ibb.co/b7xjLrB/selectbox-arrow.png");
+  background-position: right center;
+  background-repeat: no-repeat;
+  color: #444;
+  line-height: 16px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+body select option {
+  padding: 0 5px;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+select:disabled::-ms-expand {
+  background-color: #f60;
+}
